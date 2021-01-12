@@ -15,6 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.contrib import admin
+
+admin.site.site_header = 'Django Sockpuppet Sandbox Admin Panel'
+admin.site.site_title = 'Django Sockpuppet Sandbox'
+
+
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
