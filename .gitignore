@@ -1,3 +1,6 @@
+# Related to Django-Sockpuppet
+node_modules/
+
 # Django #
 *.log
 *.pot
