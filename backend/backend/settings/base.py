@@ -40,8 +40,19 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
+#START channels configration ####################################################
+# NB: CHANNEL_LAYERS uses the in-memory channel layer here which is ok for dev
+#     but not for production
+#
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels.layers.InMemoryChannelLayer"
+    }
+}
+ASGI_APPLICATION = 'sockpuppet.routing.application'
+#STOP channels configration ####################################################
 
+# Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -49,6 +60,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'channels',
+    'sockpuppet',
     'todo',
 ]
 
