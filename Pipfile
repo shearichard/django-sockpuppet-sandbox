@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 django-sockpuppet = {extras = ["lxml"], version = "*"}
 django = "*"
-django-bootstrap4 = "*"
 
 [dev-packages]
 
