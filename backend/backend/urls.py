@@ -14,15 +14,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from django.contrib import admin
+from django.urls import include, path
 
 admin.site.site_header = 'Django Sockpuppet Sandbox Admin Panel'
 admin.site.site_title = 'Django Sockpuppet Sandbox'
 
-
-
-
 urlpatterns = [
+    path('todo/', include('todo.urls')),
     path('admin/', admin.site.urls),
 ]
+

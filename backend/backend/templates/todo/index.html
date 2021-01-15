@@ -1,0 +1,57 @@
+{% extends "todo/base.html" %}
+{%block title %}Todos Index v2{% endblock %}
+
+{% block content %}
+
+    <!-- The following h1 is taken from the DigitalOcean app in which it was rendered invisible as well ! -->
+	<h1 class="text-white text-uppercase text-center my-4">Todo app</h1>
+	<div class="row">
+	  <div class="col-md-6 col-sm-10 mx-auto p-0">
+		<div class="card p-3">
+		  <div class="">
+            <button onclick={this.createItem} class="btn btn-primary">Add task</button>
+		  </div>
+            <ul class="my-5 nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active disabled" href="#">complete</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">incomplete</a>
+              </li>
+            </ul>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span class="todo-title mr-2 " title="For five people">Cook dinner</span>
+                    <span>
+                        <button class="btn btn-secondary mr-2"> Edit </button>
+                        <button class="btn btn-danger">Delete </button>
+                    </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span class="todo-title mr-2 " title="And wash windows">Clean house</span>
+                    <span>
+                        <button class="btn btn-secondary mr-2"> Edit </button>
+                        <button class="btn btn-danger">Delete </button>
+                    </span>
+                </li>
+            </ul>
+			<!--
+		  {this.renderTabList()}
+		  <ul class="list-group list-group-flush">
+			{this.renderItems()}
+		  </ul>
+			-->
+		</div>
+	  </div>
+	</div>
+	<!--
+		{this.state.modal ? (
+		  <Modal
+			activeItem={this.state.activeItem}
+			toggle={this.toggle}
+			onSave={this.handleSubmit}
+		  />
+		) : null}
+	  </main>
+	-->
+{% endblock %}
