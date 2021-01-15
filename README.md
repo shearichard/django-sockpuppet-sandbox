@@ -23,3 +23,7 @@ Here's an example of doing that.
 ```
 python manage.py runserver 0.0.0.0:8000 --settings=backend.settings.local
 ```
+
+### Using Bootstrap
+
+Bootstrap is used via the `django-bootstrap4` app (https://pypi.org/project/django-bootstrap4/).
