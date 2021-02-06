@@ -1,3 +1,11 @@
+## 2021-02-07 00:09
+Managed to plug all the bits together so it's obviously *trying* to connect but not able to.
+
+Things that need investigating:
+
+    * When the browser is run outside of the hosting machine what sort of network access is required for the web-sockets stuff ?
+    * Is it possible to specify what ports the w-s stuff uses ?
+
 ## 2021-02-06 23:02
 Currently the todo list has it's content hard-coded. Clearly that needs changing if a demo is to show off insert/update/deletes.
 
