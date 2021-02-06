@@ -1,3 +1,5 @@
+<!-- todo/base.html -->
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,6 +13,9 @@
 	<title>{% block title %}Default Page Title - You should never see this{% endblock %}</title>
   </head>
   <body>
+    <!-- Experimental placement of sockpuppet js START-->
+    <script src="{% static 'sockpuppet/sockpuppet.js' %}"></script>
+    <!-- Experimental placement of sockpuppet js STOP -->
     <div id="content">
         {% block content %}{% endblock %}
     </div>
