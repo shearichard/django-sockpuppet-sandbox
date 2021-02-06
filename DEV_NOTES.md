@@ -5,6 +5,7 @@ Things that need investigating:
 
     * When the browser is run outside of the hosting machine what sort of network access is required for the web-sockets stuff ?
     * Is it possible to specify what ports the w-s stuff uses ?
+    * Does the logging need configuration change as per https://sockpuppet.argpar.se/troubleshooting#server-side
 
 ## 2021-02-06 23:02
 Currently the todo list has it's content hard-coded. Clearly that needs changing if a demo is to show off insert/update/deletes.
