@@ -2,6 +2,10 @@
 
 Building a Django app which uses django-sockpuppet in place of a conventional react / angular / ember front end.
 
+## Credits
+
+To acclerate the process of getting project going I took some HTML/CSS from a Digital Ocean blog post [Build a To-Do application Using Django and React](https://www.digitalocean.com/community/tutorials/build-a-to-do-application-using-django-and-react) written by Jordan Irabor .
+
 ## Development Notes
 
 ### Pipenv/Virtualenv
