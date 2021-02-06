@@ -26,9 +26,6 @@ def get_env_variable(var_name):
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-print("1++++++++++++++++++++++++++++++++++")
-print(BASE_DIR)
-print("2++++++++++++++++++++++++++++++++++")
 
 
 # Quick-start development settings - unsuitable for production
@@ -65,7 +62,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'channels',
     'sockpuppet',
-    'bootstrap4',
     'todo',
 ]
 
