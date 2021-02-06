@@ -1,3 +1,6 @@
+## 2021-02-06 23:02
+Currently the todo list has it's content hard-coded. Clearly that needs changing if a demo is to show off insert/update/deletes.
+
 ## 2021-02-06 19:11
 ### Significant templates
 #### Increment Example
