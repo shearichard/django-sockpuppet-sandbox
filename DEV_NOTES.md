@@ -1,3 +1,6 @@
+## 2021-02-07 00:27
+Probably worth trying to download the demo and run it locally. https://github.com/zodman/django-sockpuppet-expo
+
 ## 2021-02-07 00:09
 Managed to plug all the bits together so it's obviously *trying* to connect but not able to.
 
