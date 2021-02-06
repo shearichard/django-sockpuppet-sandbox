@@ -6,7 +6,7 @@ Building a Django app which uses django-sockpuppet in place of a conventional re
 
 ### Pipenv/Virtualenv
 
-This project makes use of pipenv so the virtualenv needs to be started in the pipenv way and there is no `requirements.txt`.
+This project makes use of pipenv so the virtualenv needs to be started in the pipenv way (`pipenv shell`) and there is no `requirements.txt`.
 
 
 ### Environmentally Aware Settings
