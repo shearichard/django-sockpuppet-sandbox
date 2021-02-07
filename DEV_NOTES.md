@@ -1,3 +1,40 @@
+## 2021-02-07 22:01
+
+As per instructions https://sockpuppet.argpar.se/setup-django#javascript-configuration executed the following. Not sure what to make of the comments about Ruby gem ?
+
+```
+(django-sockpuppet-sandbox) rshea@mayari:~/src/django-sockpuppet-sandbox$ npm i -D fs path sockpuppet-js stimulus stimulus_reflex webpack webpack-cli
+
+> stimulus_reflex@3.4.1 postinstall /home/rshea/src/django-sockpuppet-sandbox/node_modules/stimulus_reflex
+> node ./javascript/scripts/post_install.js
+
+Friendly reminder: When updating the stimulus_reflex package,
+don't forget to update your Ruby gem as well.
+
+See https://rubygems.org/gems/stimulus_reflex
+npm WARN saveError ENOENT: no such file or directory, open '/home/rshea/src/django-sockpuppet-sandbox/package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open '/home/rshea/src/django-sockpuppet-sandbox/package.json'
+npm WARN django-sockpuppet-sandbox No description
+npm WARN django-sockpuppet-sandbox No repository field.
+npm WARN django-sockpuppet-sandbox No README data
+npm WARN django-sockpuppet-sandbox No license field.
+
++ stimulus@2.0.0
++ stimulus_reflex@3.4.1
++ webpack@5.21.1
++ path@0.12.7
++ sockpuppet-js@0.5.0
++ fs@0.0.1-security
++ webpack-cli@4.5.0
+added 140 packages from 172 contributors and audited 140 packages in 43.768s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
 ## 2021-02-07 18:34
 Went ahead and downloaded the demo and ran it locally. https://github.com/zodman/django-sockpuppet-expo .
 
