@@ -1,3 +1,16 @@
+## 2021-02-07 18:34
+Went ahead and downloaded the demo and ran it locally. https://github.com/zodman/django-sockpuppet-expo .
+
+At first it looked like it hadn't worked, or rather the page rendered OK but initial clicking on the 'increment' didn't do anything. However I then tried it after a wait of perhaps 20 seconds and it did work.
+
+This was true using FF either directly on the dev vm or when setting up a tunnel to the vm from the host machine and using FF on the host machine.
+
+### NEXT
+    * Need to analyse the debug messages on the network tab and compare with those issued by this app.
+    * Install Chrome on the VM and then try using Chrome on the VM and the host machine (this may help with analysing the messages).
+    * Try to understand what the sigificance of the 'yarn run' in the demo - there is not corresponding suggestion in the 'quick start'
+
+
 ## 2021-02-07 00:27
 Probably worth trying to download the demo and run it locally. https://github.com/zodman/django-sockpuppet-expo
 
