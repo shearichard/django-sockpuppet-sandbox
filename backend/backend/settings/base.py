@@ -142,5 +142,12 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
-
 STATIC_URL = '/static/'
+
+# START Changes as per https://sockpuppet.argpar.se/setup-django#javascript-configuration
+from pathlib import Path
+BASE_DIR = Path.cwd()
+STATICFILES_DIRS = [
+    ("js", f"{BASE_DIR}/dist/js"),
+]
+# STOP Changes as per https://sockpuppet.argpar.se/setup-django#javascript-configuration
