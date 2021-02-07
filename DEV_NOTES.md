@@ -1,3 +1,8 @@
+## 2021-02-07 22:15
+OK probably the last "npm i -d ..." was done in the wrong directory so I've renamed the resulting package-lock.json and am about to do it again in the right directory and using yarn.
+
+(django-sockpuppet-sandbox) rshea@mayari:~/src/django-sockpuppet-sandbox$ yarn add --dev fs path sockpuppet-js stimulus stimulus_reflex webpack webpack-cli
+
 ## 2021-02-07 22:01
 
 As per instructions https://sockpuppet.argpar.se/setup-django#javascript-configuration executed the following. Not sure what to make of the comments about Ruby gem ?
