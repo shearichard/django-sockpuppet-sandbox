@@ -7,6 +7,16 @@
     <!-- The following h1 is taken from the DigitalOcean app in which it was rendered invisible as well ! -->
 	<h1 class="text-white text-uppercase text-center my-4">Todo app</h1>
 	<div class="row">
+        <h2>Debug only use of increment</h2>
+        <div>
+            <a href="#"
+                data-reflex="click->CounterReflex#increment"
+                data-step="1"
+                data-count="{{ count }}"
+            >Increment {{ count }}</a>
+        </div>
+	</div>
+	<div class="row">
 	  <div class="col-md-6 col-sm-10 mx-auto p-0">
 		<div class="card p-3">
 		  <div class="">
@@ -27,8 +37,8 @@
                         <button 
                             class="btn btn-secondary mr-2"
                             data-reflex="click->todo_reflex#indicate_that_button_has_been_pushed"
-                            > Edit </button>
-                        <button class="btn btn-danger">DeleteX </button>
+                            > EditX </button>
+                        <button class="btn btn-danger">Delete</button>
                     </span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
