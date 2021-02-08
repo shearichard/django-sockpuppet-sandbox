@@ -1,5 +1,5 @@
 ## 2021-02-07 23:18
-Now getting tracebacks when trying to use either the 'increment' or the 'EditX' link/button.
+Now getting tracebacks from within Django when trying to use either the 'increment' or the 'EditX' link/button.
 
 Probably good to compare the demo code with the sandbox code in the light of the traceback messages.
 
