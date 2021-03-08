@@ -1,5 +1,5 @@
 {% extends "todo/base.html" %}
-{%block title %}Todos Index v2{% endblock %}
+{%block title %}Todos Index v6{% endblock %}
 
 {% block content %}
 
@@ -8,14 +8,29 @@
 	<h1 class="text-white text-uppercase text-center my-4">Todo app</h1>
 	<div class="row">
         <h2>Debug only use of increment</h2>
+    </div>
+	<div class="row">
         <div>
             <a href="#"
-                data-reflex="click->CounterReflex#increment"
+                data-controller="todo"
+                data-reflex="click->foobar#increment"
                 data-step="1"
                 data-count="{{ count }}"
-            >Increment {{ count }}</a>
+            >Increment from index.html {{ count }}</a>
         </div>
-	</div>
+    </div>
+	<div class="row">
+        <div>
+          <a
+            href="#"
+            data-controller="todo"
+            data-action="click->barfoo#increment"
+            data-count="{{ count }}"
+          >
+            Increment from Expo {{ count }}
+          </a>
+        </div>
+    </div>
 	<div class="row">
 	  <div class="col-md-6 col-sm-10 mx-auto p-0">
 		<div class="card p-3">
